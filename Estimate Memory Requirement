@@ -1,0 +1,6 @@
+# Estimate memory requirement
+# Assuming each element in the dataset occupies 8 bytes (numeric)
+rows <- 2075259
+columns <- 9
+memory_required <- rows * columns * 8 / (1024^2) # Convert bytes to MB
+print(memory_required)
